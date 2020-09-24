@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    text-align: center;
+    background-color: #F64C72;
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.pic img{
+    width: 80px;
+    height: 90px;
+    border: 4px solid #2F2FA2;
+    border-radius: 100%;
+}
+.admin h2{
+    color: #fff;
+    padding-bottom: 5px;
+}
+.admin p{
+    padding-bottom: 8px;
+    color: #2F2FA2;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.social i{
+    color: #fff;
+    padding:0 13px 34px;
+}
+.social .fa:hover{
+    color: #2F2FA2;
+    transition: 0.9s;
+}
+.contact button{
+    padding: 5px 39px;
+    background: none;
+    outline: none;
+    border: 2px solid #2F2FA2;
+}
+.container button:hover{
+    background-color: #2F2FA2;
+    color: #fff;
+    transition: 0.8s;
+}
+.box{
+    height: 80px;
+    background-color: #2F2FA2;
+    margin-top: 18px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.box{
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: repeat(3, 80px);
+    padding-top: 18px;
+}
+.box .box1{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+.box1 p{
+    color: #F64C72;
+}
